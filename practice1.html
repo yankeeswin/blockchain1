@@ -23,13 +23,19 @@
     if(flag==2) x.push(i);
   }
     y=x[x.length-1]
-  if(y<b){
-    document.write("挖礦值: "+y+"<br>")
-  }
+  
+  
+    for(r=0;r<x.length;r++){
+      if(x[r]<b){
+        w=x[r]
+      }
+     }
+   document.write("挖礦值: "+w+"<br>")
+  
 }
 
 a=87654321;
-b=parseInt("3cb5",16)
+b=parseInt("d5",16)
 document.write("b值: "+b+"<br>");
 z=55000
 q=a/z
